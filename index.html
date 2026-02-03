@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>超簡単アプリ</title>
+</head>
+<body>
+  <h1>はじめてのWebアプリ</h1>
+
+  <p id="message">ボタンを押してね</p>
+
+  <button onclick="changeMessage()">クリック！</button>
+
+  <script>
+    function changeMessage() {
+      document.getElementById("message").textContent = "こんにちは！🎉";
+    }
+  </script>
+</body>
+</html>
 
